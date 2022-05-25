@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+.dash-board {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  overflow-y: scroll;
+  background-image: url('../../assets/img/background_hd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.welcome {
+  width: 100%;
+  display: block;
+  border: 2px solid #eeb44f;
+  border-radius: 6px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.dash-board-dim {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #2b348dcf;
+}
+
+.alert {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Courgette, cursive;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  word-break: break-word;
+  color: #f8ae0f;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  background: linear-gradient(to bottom, #f3ad19 5%, #fb9e25 100%);
+  background-color: #ffc477;
+  border-radius: 6px;
+  border: 1px solid #eeb44f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Courgette, cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #cc9f52;
+  margin: 20px 20px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+  background-color: #fb9e25;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
